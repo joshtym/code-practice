@@ -2,6 +2,8 @@
 #include <string>
 #include <vector>
 
+// Code could definitely be cleaner
+
 long long outputNum(std::string number) {
   long long num = 0;
 
