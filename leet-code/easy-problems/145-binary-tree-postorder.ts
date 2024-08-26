@@ -31,18 +31,6 @@ interface TreeNode {
   right: TreeNode | null;
 }
 
-const TreeNode = (
-  val?: number,
-  left?: TreeNode | null,
-  right?: TreeNode | null
-) => {
-  return {
-    number: val ?? 0,
-    left: left ?? null,
-    right: right ?? null,
-  };
-};
-
 const postorderTraversal = (root: TreeNode | null): number[] => {
   if (root === null) {
     return [];
